@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git '(link unavailable)'
+                git 'https://github.com/MuhammadNabeelZaheer/lab11.git'
             }
         }
         stage('Dependency Installation') {
